@@ -915,6 +915,15 @@ var cp1lll = {
 
 };
 
+var lxs = {
+    "UFR": ["R U R2 U' R' U R", "R U2 R2 U' R' U R", "R U R U' R2 U' R2 U R2", "R D' R U R' D R'", "R' U2 R U2 R", "R' U' R U' R U2 R", "R' U2 R2 U R' U R2 U R'", "R U' R2 U' R U R U2 R U R'", "R2 U' R2 U2 R2 U R2", "R U' R' U R U' R2 U' R U R", "R' U' R U' R' U R2 U R", "R U' R2 U2 R U2 R2 U' R'", "R U2 R' U R' U2 R U2 R2 U' R'", "R' U' R U R2 U R' U R U' R'", "R U' R' U R U2 R2 U' R U R", "R U R' U R' U' R U R2 U R'", "R U R' U R' U' R2 U R", "R U2 R' U R' U' R2 U R", "R' U2 R U2 R U' R U R'", "R U' R' U R' U' R U R", "R U R' U R' U' R U' R U2 R", "R U R2 U' R U R2 U' R'", "R U2 R' U2 R' U2 R2 U2 R", "R' U' R U' R U R' U' R U2 R", "R U' R' U R U' R' U R' U' R U R", "R2 U2 R' U' R U' R2", "R U R' U R U' R'", "R U2 R' U R U' R'", "R U2 R' U' R U R'", "R U' R' U R U' R' U R U' R'"],
+    "RFU": ["S' R U R' U R U R' S", "R U R' S R2 S' R2", "R' U' R2 U' R' U R U' R' U R U R", "R' U' R U R U' R U R'", "R' U' R U D' R U' R' D R", "R' U2 R U2 R U2 R U R'", "R' U2 R U R U R", "R' U R U2 R2 U2 R' U' R", "R' U2 R' U R U R", "R' U' R U R", "R' U2 R2 U R' U R2 U' R'", "R' U' R U R U2 R U R'", "R U' R2 U2 R U R U R", "R' U' R U R2 U' R' U' R U R'", "R U' R2 U' R U R", "R' U2 R2 U2 R2 U' R'", "R U' R' U R' U2 R U2 R2 U' R'", "R U R' S' U2 S", "R' U' R2 U' R' U2 R2 U' R'", "R U2 R2 U' R U R", "R' U2 R' U2 R2 U R'", "R U R2 U2 R U R U R", "R U R' U' S' U2 S", "R' U2 R U R U' R' U R U R", "R U R2 U' R U R", "R2 D R' U2 R D' R' U R'", "R U' R' U' R U R'", "R U R'", "R U' R' U R U R'", "R U2 R' U R U R'"],
+    "FUR": ["R U2 R' U R' U' R U R2 U' R'", "R U R' U R' U' R U R2 U' R'", "R' U' R U R2 U' R'", "D' R' D R2 U' R2 D' R D", "R' U2 R U R' U' R U2 R", "R' U' R U R U' R U' R' U R U' R'", "R U R' U2 R' U' R2 U R", "R' U2 R2 U2 R", "R D' R U' R' D R'", "S R2' S' R2 U R U' R'", "R' U' R U' R U R U R", "R U2 R' U R' U' R' U R", "R' U' R2 U R", "R' U' R' U' R U2 R", "R U R' U' R' U' R U R", "R' U' R U R U R U R'", "S R2' S' R3 U2' R'", "R U R' U R' U' R' U R", "R U' R' U2 R' U' R2 U R", "R' U' R U D' R U R' D R", "R' U' R2 U' R' U R U R", "R U2 R' U2 R' U' R2 U R", "R' D' R2 U R U' R2 D", "R' U' R' U R", "R U2 R2 U2 R U2 R", "R' F R U R U' R' F' R U2 R'", "R U2 R' U2 R U' R'", "R U R' U2 R U' R'", "R U' R'", "R U' R' U2 R U' R'"],
+    "DFR": ["R U' R2 U' R U R U' R U R'", "S R2' S' R2", "R U' D' R U' R' U D R'", "R U2 R' U R D' R U' R' D R'", "R U R' U2 R D' R U' R' D R'", "R' U' R' U R U R U R'", "R U' R' U R U R' U R' U' R U R", "F' R U R' U' R' F R"],
+    "RDF": ["R' U' R U R U' R' U' R U R", "R U2 R' U R' U' R U R", "R2 U' R' U2 R' D' R U2 R' D", "R' U' R U R2 U R'", "R' U2 R U2 R2 U R'", "R' U2 R' U2 R2 U' R'", "R U2 R' U R U2 R2 U' R U R", "R U R' U' R U R'", "R U' R' U R U2 R' U R U' R'"],
+    "FDR": ["R U' R2 U' R' U R", "R U R2 U2 R U2 R", "R U' R2 D' R2 U R U' R2 D", "R U' R2 U' R U R2 U' R'", "R' D' R U R' U' D R2 U R", "R U' R' U R' U' R2 U R", "R U R' U' R U' R' U R' U' R U R", "R U' R' U R U' R'", "R U' R' U' R U R' U2 R U' R'"]
+};
+
 var zbll_juliette = {'T1': ["R U R' U R U2 R' U2 R' U' R U' R' U2 R/U' R U R' U' R' F D' R U R' D R2 U' R' F'/R U R' U R U2 (R' r') F' r U' r' F2 r/U2 L' U' L U' L' U2 (L R) U R' U R U2 R'",
   "U x D' R' U R D R2' D2 R U' R' D2 (R l)/U' x' D R U' R' D' R2 D2 R' U R D2 (R' l')/U R' U R U2 R' U' R U' R U R' U' R' U' R U R U' R'/U' R U' R' U2 R U R' U R' U' R U R U R' U' R' U R",
   "U R U2 R' U' R U' R2 U2 R U R' U R",
@@ -1284,6 +1293,8 @@ window.algs = {
 	"L5E (Justin Taylor)":l5e_full,
     "2-Look L5E FR+EO": alg_2lookl5efreo,
     "OH CMLL": oh_cmll,
+
+	"LXS" : lxs,
     
     "ELL": ELL,
     "F2L": F2L,
